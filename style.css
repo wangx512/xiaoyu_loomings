@@ -35,6 +35,7 @@ h1{
   margin-bottom: 60px;
 }
 
+/* How to make this element responsive*/
 .loomings {
   font-family: 'Lobster', cursive;
   font-size: 200px;
@@ -227,8 +228,10 @@ h2 span {
   margin-bottom: 30px;
 }
 
+/* How to make this element responsive*/
 .hand {
-  position: absolute;
-  bottom: 50px;
-  width: 5%;
+  margin-left: 1000px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  width: 3.5%;
 }

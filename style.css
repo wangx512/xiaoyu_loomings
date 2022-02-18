@@ -228,8 +228,8 @@ h2 span {
 }
 
 .hand {
-  margin-left: 1000px;
-  margin-bottom:80px;
+  margin-left: 1200px;
+  margin-bottom: 50px;
   width: 5%;
-  color: blue;
+  position: absolute;
 }

@@ -1,0 +1,235 @@
+body{
+  /*font-family: 'Zen Kaku Gothic Antique', sans-serif;*/
+  font-family: didot;
+  background-color: beige;
+  color: black;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: left;
+}
+
+/*h1{
+  font-family: 'Lobster', cursive;
+  font-size: 200px;
+  text-shadow: 3.5px 3.5px orange;
+}*/
+
+/*#title span {
+  font-size: 50px;
+  text-align: left;
+  text-shadow: 0px 0px black;
+}*/
+
+h1{
+  font-size: 30px;
+  text-align: left;
+  margin-top: 200px;
+}
+
+.wrapper {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50 px;
+  margin-bottom: 60px;
+}
+
+.loomings {
+  font-family: 'Lobster', cursive;
+  font-size: 200px;
+  text-shadow: 3.5px 3.5px orange;
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+
+.first {
+  font-size: 20px;
+}
+
+.quoted::before {
+  content: "\201c";
+  font-size: 100px;
+  display: block;
+  margin-bottom:-50px;
+  color: orange;
+}
+
+blockquote {
+  font-family: didot;
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 80px;
+  line-height: auto;
+}
+
+#one {
+  margin-right: 20%;
+}
+
+.line-1 {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  margin-right: 500px;
+  border: 2px dashed orange;
+}
+
+#two {
+  padding-left: 20%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#three {
+  padding-left: 20%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#three span{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: orange;
+}
+
+#four {
+  padding-left: 20%;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+
+.whale {
+  height: 100%;
+  width: 100%;
+  border-radius: 360%;
+  border: 5px solid black;
+  margin-left: 10%;
+  margin-bottom: 80px;
+}
+
+#five {
+  margin-bottom: 100px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+}
+
+h2:before,
+h2:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid black;
+  margin: auto;
+}
+
+h2 span {
+  padding: 0 50px;
+}
+
+
+.quoted--2nd::before {
+  content: "\201c";
+  font-size: 100px;
+  display: block;
+  margin-bottom:-50px;
+  color: orange;
+}
+
+.second {
+  font-size: 20px;
+}
+
+#six {
+  margin-bottom: 30px;
+}
+
+#seven span {
+  font-size: 100px;
+  font-weight: bold;
+  color: orange;
+}
+
+.line-2 {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border: 2px dashed orange;
+}
+
+#eight {
+  margin-bottom: 60px;
+}
+
+.flourish {
+  margin-bottom: 60px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#nine {
+  margin-bottom: 100px;
+}
+
+.block1{
+  font-weight: bold;
+  color: black;
+}
+
+.third {
+  font-size: 20px;
+}
+
+#ten{
+  padding-left: 20%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#ten span{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: orange;
+}
+
+#eleven{
+  padding-left: 20%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+#twelve{
+  padding-left: 20%;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hand {
+  margin-left: 1200px;
+  margin-bottom:80px;
+  width: 5%;
+  color: blue;
+}

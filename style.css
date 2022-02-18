@@ -6,7 +6,6 @@ body{
   margin-left: 25%;
   margin-right: 25%;
   text-align: left;
-  width: 100%;
 }
 
 /*h1{
@@ -231,6 +230,5 @@ h2 span {
 .hand {
   position: absolute;
   bottom: 50px;
-  height: auto;
   width: 5%;
 }

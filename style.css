@@ -26,6 +26,7 @@ h1{
   margin-top: 200px;
 }
 
+/* How to make this element responsive*/
 .wrapper {
   height: 40vh;
   display: flex;

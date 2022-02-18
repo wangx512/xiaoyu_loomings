@@ -3,8 +3,8 @@ body{
   font-family: didot;
   background-color: beige;
   color: black;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
   text-align: left;
 }
 
@@ -73,7 +73,7 @@ h1{
 
 blockquote {
   font-family: didot;
-  font-size: 25px;
+  font-size: 24px;
   font-weight: bold;
   font-style: italic;
   margin-bottom: 80px;
@@ -228,7 +228,7 @@ h2 span {
 }
 
 .hand {
-  margin-left: 1200px;
+  margin-left: 1000px;
   margin-bottom:80px;
   width: 5%;
   color: blue;
